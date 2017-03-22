@@ -10,10 +10,10 @@
     <link rel="icon" href="images/favicon.png">  <!--!!!ЭТО НАДО БУДЕТ ЗАПОЛНИТЬ ВКОНЦЕ!!!-->
     <title>Project-One</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!--My Styles-->
-    <link rel="stylesheet" href="css/Style.css">
     <!--Normalize or Reset-->
     <link rel="stylesheet" href="css/Normalize.css">
+    <!--My Styles-->
+    <link rel="stylesheet" href="css/Style.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -21,17 +21,20 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <style> 
-    body { 
+    .container { 
         background: url(images/bg.jpg) no-repeat center; 
         background-size: cover;
         height: 750px;
     }
+
+
     </style>
 </head>
 <body>
 
 <!--Header-->
 <div class="container">
+
     <header class="header">
         <div class="row">
             <div class="col-md-2">
@@ -61,10 +64,110 @@
             </div>
         </div>
     </header>
+
     <section class="main text-center" >
-        <h1>Welcome to the <span>Hasi</span> landing page</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in Avaiable on</p>
+        <h1>Welcome to the <span class="red_text">Hasi</span> landing page</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in Avaiable on
+            <i class="fa fa-apple" aria-hidden="true"></i>
+            <i class="fa fa-android" aria-hidden="true"></i>
+            <i class="fa fa-windows" aria-hidden="true"></i>
+        </p>
+        <button class="btn"><i class="fa fa-download" aria-hidden="true"></i>Download App</button>
     </section>
+
+    <section class="amazing_features">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="images/IPhones.png" alt="IPhones">
+            </div>
+            <div class="col-md-8">
+                <h2>Amazing <span class="red_text">Features</span></h2>
+                <div class="row">
+                    <div class="col-md-6">
+
+                        <!--Icon1-->
+                        <svg 
+                         xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink"
+                         width="70px" height="70px">
+                        <path fill-rule="evenodd"  fill="rgb(102, 51, 153)"
+                         d="M40.099,-0.000 L50.099,-0.000 C61.090,-0.000 70.000,8.910 70.000,19.901 L70.000,65.772 C70.000,68.107 68.107,70.000 65.772,70.000 L19.701,70.000 C8.821,70.000 -0.000,61.179 -0.000,50.298 L-0.000,40.099 C-0.000,17.953 17.953,-0.000 40.099,-0.000 Z"/>
+                        <text font-family="FontAwesome" fill="rgb(255, 255, 255)" font-size="24px" x="22px" y="46.232px">&#62060;</text>
+                        </svg>
+                        <h4>Responsive Design</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus doloribus, rem quis.</p>
+
+                        <!--Icon2-->
+                        <svg 
+                         xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink"
+                         width="70px" height="70px">
+                        <path fill-rule="evenodd"  fill="rgb(102, 51, 153)"
+                         d="M40.099,-0.000 L50.099,-0.000 C61.090,-0.000 70.000,8.910 70.000,19.901 L70.000,65.772 C70.000,68.107 68.107,70.000 65.772,70.000 L19.701,70.000 C8.821,70.000 -0.000,61.179 -0.000,50.298 L-0.000,40.099 C-0.000,17.953 17.953,-0.000 40.099,-0.000 Z"/>
+                        <text font-family="FontAwesome" fill="rgb(255, 255, 255)" font-size="24px" x="23px" y="48.232px">&#61683;</text>
+                        </svg>
+                        <h4>Notifications Viewing</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus doloribus, rem quis.</p>
+
+                        <!--Icon3-->
+                        <svg 
+                         xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink"
+                         width="70px" height="70px">
+                        <path fill-rule="evenodd"  fill="rgb(102, 51, 153)"
+                         d="M40.099,-0.000 L50.099,-0.000 C61.090,-0.000 70.000,8.910 70.000,19.901 L70.000,65.772 C70.000,68.107 68.107,70.000 65.772,70.000 L19.701,70.000 C8.821,70.000 -0.000,61.179 -0.000,50.298 L-0.000,40.099 C-0.000,17.953 17.953,-0.000 40.099,-0.000 Z"/>
+                        <text font-family="FontAwesome" fill="rgb(255, 255, 255)" font-size="24px" x="22px" y="48.232px">&#61573;</text>
+                        </svg>
+                        <h4>Advanced Settings</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus doloribus, rem quis.</p>
+                    </div>
+                    <div class="col-md-6">
+
+                        <!--Icon4-->
+                        <svg 
+                         xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink"
+                         width="70px" height="70px">
+                        <path fill-rule="evenodd"  fill="rgb(102, 51, 153)"
+                         d="M40.099,-0.000 L50.099,-0.000 C61.090,-0.000 70.000,8.910 70.000,19.901 L70.000,65.772 C70.000,68.107 68.107,70.000 65.772,70.000 L19.701,70.000 C8.821,70.000 -0.000,61.179 -0.000,50.298 L-0.000,40.099 C-0.000,17.953 17.953,-0.000 40.099,-0.000 Z"/>
+                        <text font-family="FontAwesome" fill="rgb(255, 255, 255)" font-size="24px" x="24px" y="45.232px">&#61480;</text>
+                        </svg>
+                        <h4>Sound Alerts</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus doloribus, rem quis.</p>
+
+                        <!--Icon5-->
+                        <svg 
+                         xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink"
+                         width="70px" height="70px">
+                        <path fill-rule="evenodd"  fill="rgb(102, 51, 153)"
+                         d="M40.099,-0.000 L50.099,-0.000 C61.090,-0.000 70.000,8.910 70.000,19.901 L70.000,65.772 C70.000,68.107 68.107,70.000 65.772,70.000 L19.701,70.000 C8.821,70.000 -0.000,61.179 -0.000,50.298 L-0.000,40.099 C-0.000,17.953 17.953,-0.000 40.099,-0.000 Z"/>
+                        <text font-family="FontAwesome" fill="rgb(255, 255, 255)" font-size="24px" x="21px" y="46.232px">&#61568;</text>
+                        </svg>
+                        <h4>Intutive Statistics</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus doloribus, rem quis.</p>
+
+                        <!--Icon6-->
+                        <svg 
+                         xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink"
+                         width="70px" height="70px">
+                        <path fill-rule="evenodd"  fill="rgb(102, 51, 153)"
+                         d="M40.099,-0.000 L50.099,-0.000 C61.090,-0.000 70.000,8.910 70.000,19.901 L70.000,65.772 C70.000,68.107 68.107,70.000 65.772,70.000 L19.701,70.000 C8.821,70.000 -0.000,61.179 -0.000,50.298 L-0.000,40.099 C-0.000,17.953 17.953,-0.000 40.099,-0.000 Z"/>
+                        <text font-family="FontAwesome" fill="rgb(255, 255, 255)" font-size="24px" x="23px" y="44.232px">&#61614;</text>
+                        </svg>
+                        <h4>Multi Task</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus doloribus, rem quis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="download_one">
+        
+    </section>
+
 </div>
     
 
@@ -89,8 +192,8 @@
 
 
 
-
-
+<!--Font-awesome-->
+<script src="https://use.fontawesome.com/e64cffe193.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
