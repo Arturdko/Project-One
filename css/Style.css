@@ -4,12 +4,34 @@
 section.main {
 	height: 750px;
 }
+
 section.amazing_features {
 	height: 700px;
 }
 
+section.download_promo {
+	height: 200px;
+	background-color: #582c85; /*purple*/
+}
 
+section.video {
+	height: 321px;
+}
+
+.get_Started {
+	height: 347px;
+	background-color: #582c85; /*purple*/
+}
+
+.package {
+	background-color: #582c85; /*purple*/
+
+}
 /*=================================    ШРИФТЫ    ================================*/
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
 h1 {
 	font-size: 48px;
 }
@@ -31,7 +53,12 @@ p {
 	font-size: 16px;
 }
 
-/*============    ГЛАВНЫЙ ЭКРАН    ===========*/
+.red_text {
+	color: #db0a5b;
+	font-weight: 800;
+}
+
+/*==================================    Download_promo    =================================*/
 
 /*============    ШРИФТЫ    ===========*/
 
