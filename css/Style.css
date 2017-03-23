@@ -18,14 +18,18 @@ section.video {
 	height: 321px;
 }
 
-.get_Started {
+section.get_started {
 	height: 347px;
 	background-color: #582c85; /*purple*/
 }
 
-.package {
+section.packages {
 	background-color: #582c85; /*purple*/
+}
 
+section.download {
+	height: 370px;
+	background-color: #582c85; /*purple*/
 }
 /*=================================    ШРИФТЫ    ================================*/
 body {
