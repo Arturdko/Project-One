@@ -38,28 +38,31 @@
 
     <header>
         <div class="row">
-            <div class="col-md-3 logo">
+            <div class="col-md-2 logo">
                 <h1>Hasi</h1>
                 <p>App Landing Page</p>
             </div>
             
-            <div class="col-md-9">
+            <div class="col-md-10">
                 <nav>
                     <ul>
-                      <li class="active"><a href="#">Why</a></li>
-                      <li><a href="#">Features</a></li>
-                      <li><a href="#">Screens</a></li>
-                      <li><a href="#">Packages</a></li>
-                      <li><a href="#">Team</a></li>
-                      <li><a href="#">Blog</a></li>
-                      <li><a href="#">Contact</a></li>
-                      <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Languages
-                        <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Russian</a></li>
-                        </ul>
-                       </li>
+                        <li><a class="active hvr-underline-reveal" href="#Why">Why</a></li>
+                        <li><a class="hvr-underline-reveal" href="#Features">Features</a></li>
+                        <li><a class="hvr-underline-reveal" href="#Screens">Screens</a></li>
+                        <li><a class="hvr-underline-reveal" href="#Packages">Packages</a></li>
+                        <li><a class="hvr-underline-reveal" href="#Team">Team</a></li>
+                        <li><a class="hvr-underline-reveal" href="#Blog">Blog</a></li>
+                        <li><a class="hvr-underline-reveal" href="#Contact">Contact</a></li>
+                        <li>
+                            <div class="dropdown">
+                            <a href="#Languages" onclick="myFunction()" class="dropbtn">Languages <span class="caret"></span></a>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="#English">English</a>
+                                <a href="#Russian">Russian</a>
+                            </div>
+                            </div>
+
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -411,7 +414,28 @@
 
 
 
+<script>
+    /* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
 
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
 <!--Font-awesome-->
 <script src="https://use.fontawesome.com/e64cffe193.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
