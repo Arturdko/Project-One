@@ -66,16 +66,16 @@ p {
 /*============================================================================================================
                                                   Navbar
 ============================================================================================================*/
-ul {
+nav ul {
 	list-style-type: none;
 	margin-top: 50px;
 }
 
-li {
+nav ul li {
 	float: left;
 }
 
-ul li a {
+nav ul li a {
 	display: block;
 	padding: 10px 3px;
 	margin: 0 14px;
@@ -486,35 +486,60 @@ section.get_started {
 
 
 /*=========================================================================================================    
-                                               packages ДОДЕЛАТЬ ЗАВТРА(ПОПРОБОВАТЬ FLOATЫ)
+                                               packages
 =========================================================================================================*/
 
-.packages {
-	border: 1px solid;
-}
-
 .packages h2 {
-						border: 1px solid;
-	margin: 100px 15px 0px 15px;
 	font-weight: 200;
-	color: #494949;	
+	color: #494949;
+	margin-top: 100px;
+	margin:100px 15px 63px 15px;
 }
 
 .packages .red_text {
 	color: #db0a5b;
 	font-weight: 800;
+	font-size: 36px;
 }
 
 .package {
-	margin-left: 15px;
-	background-color: #592d86;
+	width: 349px;
+	float: left;
+	margin: 0 15px 100px 15px;
+	background-color: #663399;
 }
 
+.packages .package h2 {
+	margin: 0;
+	padding: 50px 0 40px 0;	
+	color: #fff;
+	font-weight: 400;
+}
+
+.packages .package h4 {
+	margin: 0;
+	padding: 26px 0;
+	font-size: 18px;
+	font-weight: 200;
+	color: #db0a5b;
+	background-color: #fff;
+}
+
+.list-unstyled {
+	padding: 50px 0 40px 0;
+}
+
+.list-unstyled li {
+	padding: 18px 0;
+	color: #fff;
+	font-size: 16px;
+}
 
 /*=========================================================================================================    
                                                download
 =========================================================================================================*/
 section.download {
+	clear: left;
 	margin: 100px 0;
 	background-color: #582c85; /*purple*/
 }
