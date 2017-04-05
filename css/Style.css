@@ -293,7 +293,6 @@ svg {
 =========================================================================================================*/
 section.download_promo {
 	height: 200px;
-	background-color: #582c85; /*purple*/
 }
 
 h3 {
@@ -458,10 +457,7 @@ h3 {
 /*=========================================================================================================    
                                                get_started    
 =========================================================================================================*/
-section.get_started {
-	background-color: #582c85; /*purple*/
-	
-}
+
 .get_started h2 {
 	font-weight: 700;
 	color: #fff;
@@ -506,7 +502,7 @@ section.get_started {
 	width: 349px;
 	float: left;
 	margin: 0 15px 100px 15px;
-	background-color: #663399;
+	background-image: url("images/download_promo_bg.jpg");
 }
 
 .packages .package h2 {
@@ -693,11 +689,6 @@ textarea {
 	border-left: 5px solid #db0a5b; /*pink*/
 }
 
-.btn_submit a {
-	color: #fff;
-	padding: 20px 0px;
-}
-
 /* Sweep To Right */
 .hvr-sweep-to-right {
   display: inline-block;
@@ -740,11 +731,18 @@ textarea {
 }
 
 /*=========================================================================================================    
-                                               footer (padding for h1)
+                                               footer
 =========================================================================================================*/
-footer {
-	background-color: #1e1e1e;
+
+footer h1 {
+	padding-top: 100px;
+	padding-bottom: 50px;
 }
+
+footer img {
+	margin: 0 5px 100px 5px;
+}
+
 
 
 
