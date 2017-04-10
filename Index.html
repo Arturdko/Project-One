@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">  <!--!!!ЭТО НАДО БУДЕТ ЗАПОЛНИТЬ ВКОНЦЕ!!!-->
+    <meta name="description" content="Hasi Landing Page">
     <meta name="author" content="Artur Dariyenko">
-    <link rel="icon" href="images/favicon.png">  <!--!!!ЭТО НАДО БУДЕТ ЗАПОЛНИТЬ ВКОНЦЕ!!!-->
+    <link rel="icon" href="images/App-Dropbox-icon.png">
     <title>Project-One</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!--Normalize or Reset-->
@@ -61,7 +61,7 @@
                             <div class="dropdown">
                             <a href="#Languages" onclick="myFunction()" class="dropbtn">Languages <span class="caret"></span></a>
                             <div id="myDropdown" class="dropdown-content">
-                                <a class="hvr-underline-reveal" href="404.html">Russian</a>
+                                <a class="hvr-underline-reveal" href="404.html" target="_blank">Russian</a>
                             </div>
                             </div>
 
@@ -79,14 +79,14 @@
             <i class="pink fa fa-android" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
             <i class="pink fa fa-windows" aria-hidden="true"></i>
         </p>
-        <a href="404.html">
+        <a href="404.html" target="_blank">
             <button class="btn_main hvr-sweep-to-right"><i class="fa fa-download" aria-hidden="true">
                 </i>&nbsp;&nbsp;&nbsp;&nbsp;Download App
             </button>
         </a>
     </section>
 
-    <section class="amazing_features">
+    <section id="features" class="amazing_features">
         <div class="row">
             <div class="col-md-3">
                 <img src="images/IPhones.png" alt="IPhones">
@@ -176,22 +176,22 @@
         </div>
     </section>
 
-    <section class="download_promo">
+    <section id="screens" class="download_promo">
                 <h3>Like what you see? Download the app right now</h3>
-                <a href="404.html">
-                    <button class="btn_download_promo hvr-sweep-to-right">
+                <a target="_blank" href="404.html">
+                    <button  class="btn_download_promo hvr-sweep-to-right">
                     <i class="fa fa-download"></i>
                     &nbsp;&nbsp;&nbsp;&nbsp;Download App
                     </button>
                 </a>
     </section>
 
-    <section class="video">
+    <section id="team" class="video">
         <div class="row">
             <div class="col-md-6">
                 <h2>See A <span class="red_text">Video</span></h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                <a href="404.html">
+                <a target="_blank" href="404.html">
                     <button class="btn_main2 hvr-sweep-to-right">
                         <i class="fa fa-download" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Download App
                     </button>
@@ -204,7 +204,7 @@
         </div>
     </section>
 
-    <section class="get_started text-center">
+    <section id="blog" class="get_started text-center">
         <h2>Get Started</h2>
         <div class="row">
             <div class="col-md-3 frst_window">
@@ -232,7 +232,7 @@
         </div>
     </section>
 
-    <section class="packages text-center">
+    <section id="packages" class="packages text-center">
         <h2>Affordable <span class="red_text">Packages</span></h2>
 
             <div class="package">
@@ -278,12 +278,12 @@
 
     <section class="download text-center">
         <h2>Download the <span style="font-weight: 800;">Hasi</span></h2>
-        <a href="404.html" target="_blank"><button class="btn_download_promo2 hvr-sweep-to-right"><i class="fa fa-apple"></i>&nbsp;&nbsp;&nbsp;App Store</button></a>
-        <a href="404.html" target="_blank"><button class="btn_download_promo2 hvr-sweep-to-right"><i class="fa fa-android"></i>&nbsp;&nbsp;&nbsp;Play Store</button></a>
-        <a href="404.html" target="_blank"><button class="btn_download_promo2 hvr-sweep-to-right"><i class="fa fa-windows"></i>&nbsp;&nbsp;&nbsp;Windows Store</button></a>
+        <a target="_blank" href="404.html" target="_blank"><button class="btn_download_promo2 hvr-sweep-to-right"><i class="fa fa-apple"></i>&nbsp;&nbsp;&nbsp;App Store</button></a>
+        <a target="_blank" href="404.html" target="_blank"><button class="btn_download_promo2 hvr-sweep-to-right"><i class="fa fa-android"></i>&nbsp;&nbsp;&nbsp;Play Store</button></a>
+        <a target="_blank" href="404.html" target="_blank"><button class="btn_download_promo2 hvr-sweep-to-right"><i class="fa fa-windows"></i>&nbsp;&nbsp;&nbsp;Windows Store</button></a>
     </section>
 
-    <section class="contact_info">
+    <section id="contact" class="contact_info">
         <div class="row">
             <div class="col-md-6">
                 <h2>Contact <span class="red_text"> Info</span></h2>
@@ -385,6 +385,7 @@ window.onclick = function(event) {
   }
 }
 </script>
+
 <!--Font-awesome-->
 <script src="https://use.fontawesome.com/e64cffe193.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

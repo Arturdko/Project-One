@@ -62,34 +62,6 @@ p {
 	color: #fff;
 }
 
-/*=========================================================================================================    
-                                               RWD
-=========================================================================================================*/
-@media(min-width:0px) and (max-width:768px) {
-
-.logo h1 {
-	text-align: center;
-	margin-top: 15px;
-	font-size: 55px;
-	color: #db0a5b;
-	font-weight: 800;
-	text-transform: uppercase;
-	line-height: 24px;
-}
-
-.logo p {
-	text-align: center;
-	margin-top: -28px;
-	margin-left: 20px;
-	padding-top: 10px;
-	font-size: 14px;
-	color: #000;
-	font-weight: 300;
-	text-transform: uppercase;
-	line-height: 24px;
-}
-}
-
 /*============================================================================================================
                                                   Navbar
 ============================================================================================================*/
@@ -184,42 +156,6 @@ a:focus {
 .hvr-underline-reveal:hover:before, .hvr-underline-reveal:focus:before, .hvr-underline-reveal:active:before {
   -webkit-transform: translateY(0);
   transform: translateY(0);
-}
-
-/*=========================================================================================================    
-                                               RWD
-=========================================================================================================*/
-
-@media(min-width:0px) and (max-width:768px) {
-
-
-nav ul {
-	list-style-type: none;
-	margin-top: 10px;
-}
-
-nav ul li {
-	width: 100%;
-	text-align: center;
-}
-
-nav ul li a {
-	display: block;
-	padding: 10px 3px;
-	margin: 0 14px;
-	font-size: 16px;
-	text-decoration: none;
-	text-transform: uppercase;
-	color: #fff;
-}
-
-
-@media(min-width:769px) and (max-width:992px) {
-	
-}
-
-@media(min-width:993px) and (max-width:1200px) {
-	
 }
 
 /*========================================================================================================    
@@ -787,6 +723,7 @@ textarea {
 /*=========================================================================================================    
                                                footer
 =========================================================================================================*/
+
 footer h1 {
 	padding-top: 100px;
 	padding-bottom: 50px;
